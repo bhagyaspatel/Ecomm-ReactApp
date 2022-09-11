@@ -7,7 +7,7 @@ const Products = () => {
 		<div className='container-allproducts'>
 			{
 				popularProducts.map((item) => {
-					<SingleProduct item={item} key={item.id} />;
+					return <SingleProduct item={item} key={item.id} />;
 				})
 			}
 		</div>

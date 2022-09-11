@@ -34,8 +34,8 @@ const Slider = () => {
 						else if (currIndex === (index + 1) % sliderItems.length)
 							slideType = 'nextSlide';
 
-						console.log("active index and class", index, currIndex);
-						console.log(item.title);
+						// console.log("active index and class", index, currIndex);
+						// console.log(item.title);
 
 						return (
 							<article className={slideType} key={id} style={{ backgroundColor: `${bg}` }}>

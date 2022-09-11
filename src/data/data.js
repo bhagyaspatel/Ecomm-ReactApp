@@ -47,7 +47,7 @@ export const popularProducts = [
 	},
 	{
 		id: 2,
-		img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+		img: "https://ee.balmain.com/dw/image/v2/BHGX_PRD/on/demandware.static/-/Sites-balmain-mastercatalog/default/dw718d059f/images/hi-res/YH1TP070XD001KBF.png?sw=375&sh=530",
 	},
 	{
 		id: 3,
@@ -67,7 +67,7 @@ export const popularProducts = [
 	},
 	{
 		id: 7,
-		img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+		img: "http://cdn.shopify.com/s/files/1/0253/9628/1399/products/2020-Brand-New-Men-s-Casual-Shirt-Denim-Long-Sleeve-Slim-Fit-Striped-Shirts-Business-Camisa.png?v=1649491398",
 	},
 	{
 		id: 8,

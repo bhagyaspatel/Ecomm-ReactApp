@@ -1,12 +1,15 @@
 import React from 'react';
 import { categories } from '../data/data';
+import CategoryItem from './CategoryItem';
 
 const Category = () => {
 	return (
 		<div className='container-allcategory'>
 			{
 				categories.map((item) => {
-					return <Category item={item} key={item.id} />;
+					console.log(item);
+
+					return <CategoryItem item={item} key={item.id} />;
 				})
 			}
 		</div>

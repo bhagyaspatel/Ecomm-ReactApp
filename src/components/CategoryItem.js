@@ -1,6 +1,8 @@
 import React from 'react';
 
-const CategoryItem = ({ img, title }) => {
+const CategoryItem = ({ item }) => {
+	const { img, title } = item;
+	console.log(img, title);
 	return (
 		<div className='container-category'>
 			<img src={img} />
